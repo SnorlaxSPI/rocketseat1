@@ -2,7 +2,7 @@ import express from 'express';
 
 require('dotenv/config');
 
-import { router } from './routes/routes';
+import { router } from './routes';
 
 const app = express();
 
